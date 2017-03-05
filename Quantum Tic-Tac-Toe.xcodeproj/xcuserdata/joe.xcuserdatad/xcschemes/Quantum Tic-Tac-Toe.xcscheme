@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0630"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,20 +17,6 @@
                BlueprintIdentifier = "D42B6F141AAD0E6B00236317"
                BuildableName = "Quantum Tic-Tac-Toe.app"
                BlueprintName = "Quantum Tic-Tac-Toe"
-               ReferencedContainer = "container:Quantum Tic-Tac-Toe.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D42B6F291AAD0E6B00236317"
-               BuildableName = "Quantum Tic-Tac-ToeTests.xctest"
-               BlueprintName = "Quantum Tic-Tac-ToeTests"
                ReferencedContainer = "container:Quantum Tic-Tac-Toe.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -76,7 +62,7 @@
       </AdditionalOptions>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"

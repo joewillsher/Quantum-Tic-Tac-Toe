@@ -1,15 +1,15 @@
 //
-//  Quantum_Tic_Tac_ToeTests.swift
-//  Quantum Tic-Tac-ToeTests
+//  ModelTests.swift
+//  ModelTests
 //
-//  Created by Josef Willsher on 08/03/2015.
-//  Copyright (c) 2015 Josef Willsher. All rights reserved.
+//  Created by Josef Willsher on 24/08/2015.
+//  Copyright © 2015 Josef Willsher. All rights reserved.
 //
 
-import UIKit
 import XCTest
+@testable import Model
 
-class Quantum_Tic_Tac_ToeTests: XCTestCase {
+class ModelTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -23,12 +23,12 @@ class Quantum_Tic_Tac_ToeTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
-        XCTAssert(true, "Pass")
+        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measure() {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
